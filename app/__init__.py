@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello Flask under Apache! herstarten nu in venv '
+    return 'Hello Flask in ubuntu en env '
 
 if __name__ == "__main__":
     app.run()
