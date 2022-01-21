@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello 9090 dit moet ook werken op pi in spijkenisse hoop ik toch '
+    return 'Hello 9090 alle goed '
 
 if __name__ == "__main__":
     app.run()
